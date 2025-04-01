@@ -1,0 +1,629 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cla="http://claimsprocessing.multiplan.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cla:ClaimRequest>
+         <cla:header>
+            <cla:userId>cvtywcclient@ihpproject.com</cla:userId>
+            <cla:password>Multiplan2012</cla:password>
+            <cla:senderId>WS52730200</cla:senderId>
+            <cla:senderBatchId>WS20160210115200</cla:senderBatchId>
+            <cla:numberOfClaimsInBatch>1</cla:numberOfClaimsInBatch>
+            <cla:transactionDateTime>2014-09-08T20:14:00.000Z</cla:transactionDateTime>
+         </cla:header>
+         <cla:submitInstClaim>
+            <cla:clientClaimId>MANM_WC_0830_5</cla:clientClaimId>
+            <cla:originalClaimId>MANM_WC_0830_5</cla:originalClaimId>
+            <cla:cCode>CWCP</cla:cCode>
+            <cla:claimCharge>17815</cla:claimCharge>
+            <cla:targetPrice>0</cla:targetPrice>
+            <cla:claimCause>WC</cla:claimCause>
+            <cla:accidentState>IL</cla:accidentState>
+            <cla:claimStartDate>2014-08-14</cla:claimStartDate>
+            <cla:claimEndDate>2014-08-14</cla:claimEndDate>
+            <cla:reasonableCustomary>0</cla:reasonableCustomary>
+            <cla:payerName>ST OF IL</cla:payerName>
+            <cla:dropDate>2014-09-29</cla:dropDate>
+            <cla:patient>
+               <cla:fullName>ANNA ZARASKA</cla:fullName>
+               <cla:firstName>ANNA</cla:firstName>
+               <cla:middleName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:lastName>ZARASKA</cla:lastName>
+               <cla:suffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:phone>132456789</cla:phone>
+               <cla:address1>560 MIDDLE OF NO WHERE</cla:address1>
+               <cla:address2>P.O.BOX 123456789</cla:address2>
+               <cla:city>BELMONT</cla:city>
+               <cla:state>MA</cla:state>
+               <cla:zip>13215698</cla:zip>
+               <cla:fax>132456798</cla:fax>
+               <cla:email xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:id>PTNT412427</cla:id>
+               <cla:birthDate>2013-11-04</cla:birthDate>
+               <cla:gender>F</cla:gender>
+               <cla:accountNumber>PTNTACCT87654432D1</cla:accountNumber>
+               <cla:medicalRecordNumber>MDRC098D123456</cla:medicalRecordNumber>
+               <cla:relationshipCode>19</cla:relationshipCode>
+               <cla:acceptAssign>B</cla:acceptAssign>
+            </cla:patient>
+            <cla:insured>
+               <cla:fullName>Anna Barbara Smith</cla:fullName>
+               <cla:firstName>Anna</cla:firstName>
+               <cla:middleName>Barbara</cla:middleName>
+               <cla:lastName>Smith</cla:lastName>
+               <cla:suffix>Ms</cla:suffix>
+               <cla:phone>13456978</cla:phone>
+               <cla:address1>576 GIROUD</cla:address1>
+               <cla:address2>APT #5555555</cla:address2>
+               <cla:city>Glandale</cla:city>
+               <cla:state>CA</cla:state>
+               <cla:zip>132456798</cla:zip>
+               <cla:fax>132456798</cla:fax>
+               <cla:email xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:id>INS00000000010</cla:id>
+               <cla:birthDate>2013-11-01</cla:birthDate>
+               <cla:gender>F</cla:gender>
+               <cla:employerName>Coventry</cla:employerName>
+               <cla:employerGroupPolicyNumber>dd</cla:employerGroupPolicyNumber>
+               <cla:employerGroupName>dfsf</cla:employerGroupName>
+            </cla:insured>
+            <cla:billingProvider>
+               <cla:fullName>WC AUTO REG22</cla:fullName>
+               <cla:firstName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:middleName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:lastName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:suffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:phone>132456978</cla:phone>
+               <cla:address1>296 BLADE ST</cla:address1>
+               <cla:address2 xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:city>LIMA</cla:city>
+               <cla:state>OH</cla:state>
+               <cla:zip>45801</cla:zip>
+               <cla:fax>13456798</cla:fax>
+               <cla:email>manmeet.chadha@multiplan.com</cla:email>
+               <cla:tin>424446481</cla:tin>
+               <cla:npi>1508815333</cla:npi>
+               <cla:repricingProviderId>0</cla:repricingProviderId>
+            </cla:billingProvider>
+            <cla:renderingProvider>
+		<cla:fullName>WC AUTO REG22</cla:fullName>
+               <cla:firstName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:middleName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:lastName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:suffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:phone>132456978</cla:phone>
+               <cla:address1>296 BLADE ST</cla:address1>
+               <cla:address2 xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:city>LIMA</cla:city>
+               <cla:state>OH</cla:state>
+               <cla:zip>45801</cla:zip>
+               <cla:fax>13456798</cla:fax>
+               <cla:email>manmeet.chadha@multiplan.com</cla:email>
+               <cla:tin>424446481</cla:tin>
+               <cla:npi>1508815333</cla:npi>
+               <cla:repricingProviderId>0</cla:repricingProviderId>
+            </cla:renderingProvider>
+            <cla:paytoProvider>
+               <cla:fullName>GODZILLA,DAVID</cla:fullName>
+               <cla:firstName>DAVID</cla:firstName>
+               <cla:middleName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:lastName>GODZILLA</cla:lastName>
+               <cla:suffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:phone>132456978</cla:phone>
+               <cla:address1>1225 CHANPION DRIVE</cla:address1>
+               <cla:address2 xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:city>EDISON</cla:city>
+               <cla:state>NJ</cla:state>
+               <cla:zip>08820</cla:zip>
+               <cla:fax>13456798</cla:fax>
+               <cla:email>manmeet.chadha@multiplan.com</cla:email>
+               <cla:tin>741200035</cla:tin>
+               <cla:npi>DEF1578876</cla:npi>
+               <cla:repricingProviderId>0</cla:repricingProviderId>
+            </cla:paytoProvider>
+            <cla:serviceFacilityLocation>
+               <cla:fullName>GODZILLA,DAVID</cla:fullName>
+               <cla:firstName>DAVID</cla:firstName>
+               <cla:middleName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:lastName>GODZILLA</cla:lastName>
+               <cla:suffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:phone>132456978</cla:phone>
+               <cla:address1>1225 CHANPION DRIVE</cla:address1>
+               <cla:address2 xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <cla:city>EDISON</cla:city>
+               <cla:state>NJ</cla:state>
+               <cla:zip>08820</cla:zip>
+               <cla:fax>13456798</cla:fax>
+               <cla:email>ankeen.merzikian@multiplan.com</cla:email>
+               <cla:tin>741200035</cla:tin>
+               <cla:npi>0</cla:npi>
+               <cla:repricingProviderId>0</cla:repricingProviderId>
+            </cla:serviceFacilityLocation>
+            <cla:extendedInfos>
+               <cla:extendedInfo>
+                  <cla:name>nameof</cla:name>
+                  <cla:value>value</cla:value>
+               </cla:extendedInfo>
+            </cla:extendedInfos>
+            <cla:typeOfClaim>111</cla:typeOfClaim>
+            <cla:drgCode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <cla:dateOfAdmission>2014-08-14</cla:dateOfAdmission>
+            <cla:admissionType/>
+            <cla:admissionSource/>
+            <cla:dischargeStatus/>
+            <cla:prinDiagnosisCode icdVersion="9" poaIndicator="Y">72210</cla:prinDiagnosisCode>
+            <cla:admitDiagnosisCode icdVersion="9">8408</cla:admitDiagnosisCode>
+            <cla:otherDiagnosisCodes>
+               <cla:otherDiagnosisCode icdVersion="9" poaIndicator="Y">71531</cla:otherDiagnosisCode>
+               <cla:otherDiagnosisCode icdVersion="9" poaIndicator="Y">71612</cla:otherDiagnosisCode>
+               <cla:otherDiagnosisCode icdVersion="9" poaIndicator="Y">7262</cla:otherDiagnosisCode>
+               <cla:otherDiagnosisCode icdVersion="9" poaIndicator="Y">71831</cla:otherDiagnosisCode>
+               <cla:otherDiagnosisCode icdVersion="9" poaIndicator="Y">718381</cla:otherDiagnosisCode>
+               <cla:otherDiagnosisCode icdVersion="9" poaIndicator="Y">8408</cla:otherDiagnosisCode>
+            </cla:otherDiagnosisCodes>
+            <cla:ecodes xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <cla:patientReasonForVisit>
+               <cla:patientReasonForVisitCode icdVersion="9" poaIndicator="Y">9</cla:patientReasonForVisitCode>
+            </cla:patientReasonForVisit>
+            <cla:prinProcedureCode>
+               <cla:code icdVersion="9"/>
+               <cla:date>2014-08-14</cla:date>
+            </cla:prinProcedureCode>
+            <cla:otherProcedureCodes>
+               <cla:otherProcedureCode>
+                  <cla:code icdVersion="9"/>
+                  <cla:date>2014-08-14</cla:date>
+               </cla:otherProcedureCode>
+            </cla:otherProcedureCodes>
+            <!--Optional:-->
+            <cla:occurrenceCodes>
+               <cla:occurrenceCode>
+                  <cla:code>79</cla:code>
+                  <cla:fromDate>1996-03-12</cla:fromDate>
+                  <cla:thruDate>2014-07-21</cla:thruDate>
+               </cla:occurrenceCode>
+            </cla:occurrenceCodes>
+            <cla:valueCodes>
+               <cla:valueCode>
+                  <cla:code>codeof</cla:code>
+                  <cla:amount>13245678.12</cla:amount>
+               </cla:valueCode>
+            </cla:valueCodes>
+            <cla:claimLines>
+               <!--1 or more repetitions:-->
+               <cla:claimLine>
+                  <cla:lineNumber>1</cla:lineNumber>
+                  <cla:unitQty>1</cla:unitQty>
+                  <cla:lineCharge>4650.00</cla:lineCharge>
+                  <cla:targetPrice>4000.00</cla:targetPrice>
+                  <cla:excludeLineAmt>0</cla:excludeLineAmt>
+                  <cla:reasonableCustomary>0</cla:reasonableCustomary>
+                 <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                  <cla:ndcCodes>
+                     <cla:ndcCode>
+                        <cla:rxNbr>rxNbr</cla:rxNbr>
+                        <cla:drugCode>drugcode</cla:drugCode>
+                        <cla:unitPrice>12.12</cla:unitPrice>
+                        <cla:measuringBasis>ML</cla:measuringBasis>
+                        <cla:drugQty>12</cla:drugQty>
+                     </cla:ndcCode>
+                  </cla:ndcCodes>
+                  <cla:extendedInfos>
+                     <cla:extendedInfo>
+                        <cla:name>nameofendinfo</cla:name>
+                        <cla:value>valueofinfo</cla:value>
+                     </cla:extendedInfo>
+                  </cla:extendedInfos>
+                  <cla:revenueCode>0121</cla:revenueCode>
+                  <cla:dateOfService>2014-08-14</cla:dateOfService>
+                  <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>
+               <cla:claimLine>
+                  <cla:lineNumber>2</cla:lineNumber>
+                  <cla:unitQty>1</cla:unitQty>
+                  <cla:lineCharge>344.75</cla:lineCharge>
+                  <cla:targetPrice>300.00</cla:targetPrice>
+                  <cla:excludeLineAmt>0</cla:excludeLineAmt>
+                  <cla:reasonableCustomary>0</cla:reasonableCustomary>
+                   <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                  <cla:ndcCodes>
+                     <cla:ndcCode>
+                        <cla:rxNbr>rxNbr</cla:rxNbr>
+                        <cla:drugCode>drugcode</cla:drugCode>
+                        <cla:unitPrice>12.12</cla:unitPrice>
+                        <cla:measuringBasis>ML</cla:measuringBasis>
+                        <cla:drugQty>12</cla:drugQty>
+                     </cla:ndcCode>
+                  </cla:ndcCodes>
+                  <cla:extendedInfos>
+                     <cla:extendedInfo>
+                        <cla:name>nameofendinfo</cla:name>
+                        <cla:value>valueofinfo</cla:value>
+                     </cla:extendedInfo>
+                  </cla:extendedInfos>
+                  <cla:revenueCode>0250</cla:revenueCode>
+                  <cla:dateOfService>2014-08-14</cla:dateOfService>
+                  <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>
+               <cla:claimLine>
+                  <cla:lineNumber>3</cla:lineNumber>
+                  <cla:unitQty>1</cla:unitQty>
+                  <cla:lineCharge>711.00</cla:lineCharge>
+                  <cla:targetPrice>700.00</cla:targetPrice>
+                  <cla:excludeLineAmt>0</cla:excludeLineAmt>
+                  <cla:reasonableCustomary>0</cla:reasonableCustomary>
+                  <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                  <cla:ndcCodes>
+                     <cla:ndcCode>
+                        <cla:rxNbr>rxNbr</cla:rxNbr>
+                        <cla:drugCode>drugcode</cla:drugCode>
+                        <cla:unitPrice>12.12</cla:unitPrice>
+                        <cla:measuringBasis>ML</cla:measuringBasis>
+                        <cla:drugQty>12</cla:drugQty>
+                     </cla:ndcCode>
+                  </cla:ndcCodes>
+                  <cla:extendedInfos>
+                     <cla:extendedInfo>
+                        <cla:name>nameofendinfo</cla:name>
+                        <cla:value>valueofinfo</cla:value>
+                     </cla:extendedInfo>
+                  </cla:extendedInfos>
+                  <cla:revenueCode>0260</cla:revenueCode>
+                  <cla:dateOfService>2014-08-14</cla:dateOfService>
+                  <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>
+               <cla:claimLine>
+                  <cla:lineNumber>4</cla:lineNumber>
+                  <cla:unitQty>1</cla:unitQty>
+                  <cla:lineCharge>125.00</cla:lineCharge>
+                  <cla:targetPrice>100.00</cla:targetPrice>
+                  <cla:excludeLineAmt>0</cla:excludeLineAmt>
+                  <cla:reasonableCustomary>0</cla:reasonableCustomary>
+                   <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                  <cla:ndcCodes>
+                     <cla:ndcCode>
+                        <cla:rxNbr>rxNbr</cla:rxNbr>
+                        <cla:drugCode>drugcode</cla:drugCode>
+                        <cla:unitPrice>12.12</cla:unitPrice>
+                        <cla:measuringBasis>ML</cla:measuringBasis>
+                        <cla:drugQty>12</cla:drugQty>
+                     </cla:ndcCode>
+                  </cla:ndcCodes>
+                  <cla:extendedInfos>
+                     <cla:extendedInfo>
+                        <cla:name>nameofendinfo</cla:name>
+                        <cla:value>valueofinfo</cla:value>
+                     </cla:extendedInfo>
+                  </cla:extendedInfos>
+                  <cla:revenueCode>0300</cla:revenueCode>
+                  <cla:dateOfService>2014-08-14</cla:dateOfService>
+                  <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>          
+               <cla:claimLine>
+                  <cla:lineNumber>5</cla:lineNumber>
+                  <cla:unitQty>1</cla:unitQty>
+                  <cla:lineCharge>2712.00</cla:lineCharge>
+                  <cla:targetPrice>2000.00</cla:targetPrice>
+                  <cla:excludeLineAmt>0</cla:excludeLineAmt>
+                  <cla:reasonableCustomary>0</cla:reasonableCustomary>
+                  <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                  <cla:ndcCodes>
+                     <cla:ndcCode>
+                        <cla:rxNbr>rxNbr</cla:rxNbr>
+                        <cla:drugCode>drugcode</cla:drugCode>
+                        <cla:unitPrice>12.12</cla:unitPrice>
+                        <cla:measuringBasis>ML</cla:measuringBasis>
+                        <cla:drugQty>12</cla:drugQty>
+                     </cla:ndcCode>
+                  </cla:ndcCodes>
+                  <cla:extendedInfos>
+                     <cla:extendedInfo>
+                        <cla:name>nameofendinfo</cla:name>
+                        <cla:value>valueofinfo</cla:value>
+                     </cla:extendedInfo>
+                  </cla:extendedInfos>
+                  <cla:revenueCode>0301</cla:revenueCode>
+                  <cla:dateOfService>2014-08-14</cla:dateOfService>
+                  <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine> 
+                <cla:claimLine>
+	                         <cla:lineNumber>6</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>155.00</cla:lineCharge>
+	                         <cla:targetPrice>100.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0302</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+                <cla:claimLine>
+	                         <cla:lineNumber>7</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>942.00</cla:lineCharge>
+	                         <cla:targetPrice>900.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0305</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+                <cla:claimLine>
+	                         <cla:lineNumber>8</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>531.00</cla:lineCharge>
+	                         <cla:targetPrice>500.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0306</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+                <cla:claimLine>
+	                         <cla:lineNumber>9</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>46.00</cla:lineCharge>
+	                         <cla:targetPrice>40.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0307</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+                <cla:claimLine>
+	                         <cla:lineNumber>10</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>653.00</cla:lineCharge>
+	                         <cla:targetPrice>600.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0320</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+                <cla:claimLine>
+	                         <cla:lineNumber>11</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>174.00</cla:lineCharge>
+	                         <cla:targetPrice>100.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0324</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+                <cla:claimLine>
+	                         <cla:lineNumber>12</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>4914.00</cla:lineCharge>
+	                         <cla:targetPrice>4000.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0350</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+                <cla:claimLine>
+	                         <cla:lineNumber>13</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>713.00</cla:lineCharge>
+	                         <cla:targetPrice>700.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0450</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+                <cla:claimLine>
+	                         <cla:lineNumber>14</cla:lineNumber>
+	                         <cla:unitQty>1</cla:unitQty>
+	                         <cla:lineCharge>377.25</cla:lineCharge>
+	                         <cla:targetPrice>300.00</cla:targetPrice>
+	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                         <cla:ndcCodes>
+	                            <cla:ndcCode>
+	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	                               <cla:drugCode>drugcode</cla:drugCode>
+	                               <cla:unitPrice>12.12</cla:unitPrice>
+	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	                               <cla:drugQty>12</cla:drugQty>
+	                            </cla:ndcCode>
+	                         </cla:ndcCodes>
+	                         <cla:extendedInfos>
+	                            <cla:extendedInfo>
+	                               <cla:name>nameofendinfo</cla:name>
+	                               <cla:value>valueofinfo</cla:value>
+	                            </cla:extendedInfo>
+	                         </cla:extendedInfos>
+	                         <cla:revenueCode>0636</cla:revenueCode>
+	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>
+                 <cla:claimLine>
+	       	                         <cla:lineNumber>15</cla:lineNumber>
+	       	                         <cla:unitQty>1</cla:unitQty>
+	       	                         <cla:lineCharge>732.00</cla:lineCharge>
+	       	                         <cla:targetPrice>700.00</cla:targetPrice>
+	       	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	       	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	       	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	       	                         <cla:ndcCodes>
+	       	                            <cla:ndcCode>
+	       	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	       	                               <cla:drugCode>drugcode</cla:drugCode>
+	       	                               <cla:unitPrice>12.12</cla:unitPrice>
+	       	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	       	                               <cla:drugQty>12</cla:drugQty>
+	       	                            </cla:ndcCode>
+	       	                         </cla:ndcCodes>
+	       	                         <cla:extendedInfos>
+	       	                            <cla:extendedInfo>
+	       	                               <cla:name>nameofendinfo</cla:name>
+	       	                               <cla:value>valueofinfo</cla:value>
+	       	                            </cla:extendedInfo>
+	       	                         </cla:extendedInfos>
+	       	                         <cla:revenueCode>0730</cla:revenueCode>
+	       	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	       	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine> 
+                 <cla:claimLine>
+	       	                         <cla:lineNumber>16</cla:lineNumber>
+	       	                         <cla:unitQty>1</cla:unitQty>
+	       	                         <cla:lineCharge>35.00</cla:lineCharge>
+	       	                         <cla:targetPrice>0.00</cla:targetPrice>
+	       	                         <cla:excludeLineAmt>0</cla:excludeLineAmt>
+	       	                         <cla:reasonableCustomary>0</cla:reasonableCustomary>
+	       	                         <cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	       	                         <cla:ndcCodes>
+	       	                            <cla:ndcCode>
+	       	                               <cla:rxNbr>rxNbr</cla:rxNbr>
+	       	                               <cla:drugCode>drugcode</cla:drugCode>
+	       	                               <cla:unitPrice>12.12</cla:unitPrice>
+	       	                               <cla:measuringBasis>ML</cla:measuringBasis>
+	       	                               <cla:drugQty>12</cla:drugQty>
+	       	                            </cla:ndcCode>
+	       	                         </cla:ndcCodes>
+	       	                         <cla:extendedInfos>
+	       	                            <cla:extendedInfo>
+	       	                               <cla:name>nameofendinfo</cla:name>
+	       	                               <cla:value>valueofinfo</cla:value>
+	       	                            </cla:extendedInfo>
+	       	                         </cla:extendedInfos>
+	       	                         <cla:revenueCode>0993</cla:revenueCode>
+	       	                         <cla:dateOfService>2014-08-14</cla:dateOfService>
+	       	                         <cla:hcpcsCode></cla:hcpcsCode>
+               </cla:claimLine>  
+            </cla:claimLines>
+         </cla:submitInstClaim>
+      </cla:ClaimRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,46 @@
+External id,Test Summary,OrderId,Step,Test Data,Expected Result,Assigned To,Comments,Description,Component,jira-customfield-checkbox,Epic link,Linked issues,Labels,Issue Key [To add steps],Issue Link Type,Issues Key To Link,Priority,Sprint,Version,,
+TC-LL-1,Verify Lab User login using valid login credentials,,"1) Open the Lab portal
+2) On the Login screen, enter the Email ID and password of the lab user. 
+3) Click on the Sign In button.","Email id: user@qvin.com
+Password: abc123",The login attempt should be successful and the screen should successfully proceed to the Two-step verification screen,,,To verify if the lab user is able to login to the lab portal by entering a valid email and password,,,,,,,,,2,2,,,
+TC-LL-2,Verify Lab User login using invalid login credentials,,"1) Open the Lab portal
+2) On the Login screen, enter invalid Email ID and/or password of the lab user. 
+3) Click on the Sign In button.","Email id: user@qvin.com
+Password: secret","The login attempt should not be successful and the following error message should appear on the screen:
+
+""Username or password is wrong. Please try again.""",,,To verify if the lab user is able to login to the lab portal by entering an invalid email and password,,,,,,,,,3,2,,,
+TC-LL-3,Verify lab user login without entering any email ID,,"1) Open the Lab dashboard
+2)Do not enter an Email ID.
+3) Enter the password of the user submitted at the time of Trial sign up.","Email id : ------
+Passwrod : abc123","The login attempt should not be successful and the following error message should appear on the screen:
+
+""Email is required.""",,,Negative test to check how the login feature behaves if the user tries to login without entering any email ID,,,,,,,,,2,3,,,
+TC-HS-1,Verify the Home screen after user logs in to the app.,,1) Login the app with the Email ID and Password.,,"1)After successful login, the home screen should land as the default screen.
+2)On the home screen, the following should be visible:
+a) The period tracker wheel showing the period length, fertile window and ovulation date. 
+b) The weekly view calender.
+c) The Settings button through which user can control the predictions, cycle log features and reminder notifications. 
+d) The calender view button through which the user can view the calender and list view.",,,To verify if the home screen successfully lands up as the default screen when the user logs in to the app.,,,,,,,,,,,,,
+TC-HS-2,Verify navigation to Health Screen,,"1) Login the app with the Email ID and Password. 
+2) On the Home screen, click on the Heart icon.",,"1) The Health Screen should appear on cliking the Health Tab.
+2) Under the Health Screen, the following categories should appear:
+a) Cycle - details with respect to user's cycle can be added, edited and viewed under Cycle .
+b) Body - details wth respect to user's body viz., height, weight, heart rate etc. can be added, edited and viewed under Body.
+c) Activities and Calories - Details of user's activities such as steps, cycling distance, Active energy etc can be added, edited and viewed here.",,,To verify if the user can successfully navigate to the health screen by tapping on the Heath tab.,,,,,,,,,,,,,
+TC-HS-3,Verify navigation to Sample Submission Screen,,"1) Login the app with the Email ID and Password. 
+2) On the Home screen, click on the Pad Tab.",,"1) The Sample Submission screen should appear on clicking the Pad TAb. 
+2) The user should be able to register a device and start sample collection.",,,To verify if the user can successfully navigate to the sample submission screen by tapping on the Pad Tab.,,,,,,,,,,,,,
+TC-HS-4,Verify navigation to Account Screen on iOS.,,"1) Login the app with the Email ID and Password. 
+2) On the Home screen, click on the Account Tab.",,"1) The Account screen should appear on clicking the Account Tab.
+2) On iOS, under Account Tab, the following categories should appear:
+a) My Profile - Details such as name, addrss, phone number etc of the user.
+b) Consents - the various consents agreed to by the user should be visible.
+c) Import - Details of import from Apple Health should appear. 
+d) Contact information of the user - email and phone number",,,To verify if the user can successfully navigate to the Account screen by tapping on the Account Tab.,,,,,,,,,,,,,
+TC-HS-5,Verify navigation to Account Screen on Android.,,"1) Login the app with the Email ID and Password. 
+2) On the Home screen, click on the Account Tab.",,"1) The Account screen should appear on clicking the Account Tab.
+2) On Android, under Account Tab, the following categories should appear:
+a) My Profile - Details such as name, addrss, phone number etc of the user.
+b) Consents - the various consents agreed to by the user should be visible.
+c) Contact information of the user- email and phone number
+",,,To verify if the user can successfully navigate to the Account screen by tapping on the Account Tab.,,,,,,,,,,,,,

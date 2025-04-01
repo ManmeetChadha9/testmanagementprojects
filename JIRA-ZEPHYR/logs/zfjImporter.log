@@ -1,0 +1,290 @@
+2020-06-23 02:38:41,136 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 02:41:52,258 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 02:42:01,705 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 02:44:29,605 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 02:46:04,275 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 02:46:16,165 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 02:51:01,195 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 02:51:23,671 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 02:53:56,139 WARN [AWT-EventQueue-0] ConfiguredHttpClient.handleResponse(1097) | Authentication error: Unable to respond to any of these challenges: {}
+2020-06-23 03:06:43,521 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:06:43 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:06:43,521 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:06:43 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:06:44,081 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:06:44 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:06:44,081 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:06:44 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:06:44,082 ERROR [pool-1-thread-1] TestcaseImportManagerImpl.saveTestCase(981) | 
+dispatch.classic.StatusCode: Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}}
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:53)
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:50)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:41)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:36)
+	at dispatch.classic.BlockingHttp$$anonfun$execute$1.apply(Http.scala:54)
+	at dispatch.classic.Http.pack(Http.scala:25)
+	at dispatch.classic.BlockingHttp$class.execute(Http.scala:53)
+	at dispatch.classic.Http.execute(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.x(executor.scala:36)
+	at dispatch.classic.Http.x(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.when(executor.scala:50)
+	at dispatch.classic.Http.when(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.apply(executor.scala:60)
+	at dispatch.classic.Http.apply(Http.scala:21)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:210)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:177)
+	at com.thed.zfj.rest.JiraService.saveTestcase(JIRAServiceImpl.scala)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.saveTestCase(TestcaseImportManagerImpl.java:972)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.importFileByEmptyRow(TestcaseImportManagerImpl.java:819)
+	at com.thed.service.impl.zie.AbstractImportManager.importSingleFiles(AbstractImportManager.java:157)
+	at com.thed.service.impl.zie.AbstractImportManager.importAllFiles(AbstractImportManager.java:81)
+	at com.thed.zfj.rest.JiraService$.startImport(JIRAServiceImpl.scala:110)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:469)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:466)
+	at scala.actors.threadpool.FutureTask.run(FutureTask.java:178)
+	at scala.actors.threadpool.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1060)
+	at scala.actors.threadpool.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:574)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-23 03:06:44,100 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:06:44 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:06:44,100 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:06:44 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:24:16,014 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:24:16 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls, testcase name not exists at 2 row 
+
+2020-06-23 03:24:16,014 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:24:16 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls, testcase name not exists at 2 row 
+
+2020-06-23 03:24:16,016 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:24:16 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization failed..! 
+
+2020-06-23 03:24:16,016 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:24:16 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization failed..! 
+
+2020-06-23 03:31:05,273 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:31:05 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:31:05,273 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:31:05 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:31:06,032 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:31:06 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:31:06,032 ERROR [pool-3-thread-1] TestcaseImportManagerImpl.saveTestCase(981) | 
+dispatch.classic.StatusCode: Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}}
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:53)
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:50)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:41)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:36)
+	at dispatch.classic.BlockingHttp$$anonfun$execute$1.apply(Http.scala:54)
+	at dispatch.classic.Http.pack(Http.scala:25)
+	at dispatch.classic.BlockingHttp$class.execute(Http.scala:53)
+	at dispatch.classic.Http.execute(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.x(executor.scala:36)
+	at dispatch.classic.Http.x(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.when(executor.scala:50)
+	at dispatch.classic.Http.when(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.apply(executor.scala:60)
+	at dispatch.classic.Http.apply(Http.scala:21)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:210)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:177)
+	at com.thed.zfj.rest.JiraService.saveTestcase(JIRAServiceImpl.scala)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.saveTestCase(TestcaseImportManagerImpl.java:972)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.importFileByEmptyRow(TestcaseImportManagerImpl.java:819)
+	at com.thed.service.impl.zie.AbstractImportManager.importSingleFiles(AbstractImportManager.java:157)
+	at com.thed.service.impl.zie.AbstractImportManager.importAllFiles(AbstractImportManager.java:81)
+	at com.thed.zfj.rest.JiraService$.startImport(JIRAServiceImpl.scala:110)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:469)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:466)
+	at scala.actors.threadpool.FutureTask.run(FutureTask.java:178)
+	at scala.actors.threadpool.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1060)
+	at scala.actors.threadpool.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:574)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-23 03:31:06,032 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:31:06 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:31:06,040 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:31:06 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:31:06,040 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:31:06 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:33:42,406 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:33:42 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:33:42,406 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:33:42 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:33:42,866 DEBUG [ForkJoinPool-1-worker-7] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:33:42 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:33:42,865 ERROR [pool-4-thread-1] TestcaseImportManagerImpl.saveTestCase(981) | 
+dispatch.classic.StatusCode: Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}}
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:53)
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:50)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:41)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:36)
+	at dispatch.classic.BlockingHttp$$anonfun$execute$1.apply(Http.scala:54)
+	at dispatch.classic.Http.pack(Http.scala:25)
+	at dispatch.classic.BlockingHttp$class.execute(Http.scala:53)
+	at dispatch.classic.Http.execute(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.x(executor.scala:36)
+	at dispatch.classic.Http.x(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.when(executor.scala:50)
+	at dispatch.classic.Http.when(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.apply(executor.scala:60)
+	at dispatch.classic.Http.apply(Http.scala:21)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:210)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:177)
+	at com.thed.zfj.rest.JiraService.saveTestcase(JIRAServiceImpl.scala)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.saveTestCase(TestcaseImportManagerImpl.java:972)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.importFileByEmptyRow(TestcaseImportManagerImpl.java:819)
+	at com.thed.service.impl.zie.AbstractImportManager.importSingleFiles(AbstractImportManager.java:157)
+	at com.thed.service.impl.zie.AbstractImportManager.importAllFiles(AbstractImportManager.java:81)
+	at com.thed.zfj.rest.JiraService$.startImport(JIRAServiceImpl.scala:110)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:469)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:466)
+	at scala.actors.threadpool.FutureTask.run(FutureTask.java:178)
+	at scala.actors.threadpool.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1060)
+	at scala.actors.threadpool.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:574)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-23 03:33:42,866 DEBUG [ForkJoinPool-1-worker-7] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:33:42 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:33:43,879 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:33:43 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:33:43,879 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:33:43 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:37:28,597 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:28 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:37:28,597 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:28 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:37:29,049 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:29 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:37:29,049 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:29 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:37:29,050 ERROR [pool-5-thread-1] TestcaseImportManagerImpl.saveTestCase(981) | 
+dispatch.classic.StatusCode: Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}}
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:53)
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:50)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:41)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:36)
+	at dispatch.classic.BlockingHttp$$anonfun$execute$1.apply(Http.scala:54)
+	at dispatch.classic.Http.pack(Http.scala:25)
+	at dispatch.classic.BlockingHttp$class.execute(Http.scala:53)
+	at dispatch.classic.Http.execute(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.x(executor.scala:36)
+	at dispatch.classic.Http.x(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.when(executor.scala:50)
+	at dispatch.classic.Http.when(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.apply(executor.scala:60)
+	at dispatch.classic.Http.apply(Http.scala:21)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:210)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:177)
+	at com.thed.zfj.rest.JiraService.saveTestcase(JIRAServiceImpl.scala)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.saveTestCase(TestcaseImportManagerImpl.java:972)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.importFileByEmptyRow(TestcaseImportManagerImpl.java:819)
+	at com.thed.service.impl.zie.AbstractImportManager.importSingleFiles(AbstractImportManager.java:157)
+	at com.thed.service.impl.zie.AbstractImportManager.importAllFiles(AbstractImportManager.java:81)
+	at com.thed.zfj.rest.JiraService$.startImport(JIRAServiceImpl.scala:110)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:469)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:466)
+	at scala.actors.threadpool.FutureTask.run(FutureTask.java:178)
+	at scala.actors.threadpool.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1060)
+	at scala.actors.threadpool.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:574)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-23 03:37:29,055 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:29 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:37:29,055 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:29 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:37:38,417 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:38 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:37:38,417 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:38 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:37:38,872 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:38 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:37:38,872 ERROR [pool-6-thread-1] TestcaseImportManagerImpl.saveTestCase(981) | 
+dispatch.classic.StatusCode: Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}}
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:53)
+	at dispatch.classic.HttpExecutor$$anonfun$1.apply(executor.scala:50)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:41)
+	at dispatch.classic.HttpExecutor$$anonfun$x$2.apply(executor.scala:36)
+	at dispatch.classic.BlockingHttp$$anonfun$execute$1.apply(Http.scala:54)
+	at dispatch.classic.Http.pack(Http.scala:25)
+	at dispatch.classic.BlockingHttp$class.execute(Http.scala:53)
+	at dispatch.classic.Http.execute(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.x(executor.scala:36)
+	at dispatch.classic.Http.x(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.when(executor.scala:50)
+	at dispatch.classic.Http.when(Http.scala:21)
+	at dispatch.classic.HttpExecutor$class.apply(executor.scala:60)
+	at dispatch.classic.Http.apply(Http.scala:21)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:210)
+	at com.thed.zfj.rest.JiraService$.saveTestcase(JIRAServiceImpl.scala:177)
+	at com.thed.zfj.rest.JiraService.saveTestcase(JIRAServiceImpl.scala)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.saveTestCase(TestcaseImportManagerImpl.java:972)
+	at com.thed.service.impl.zie.TestcaseImportManagerImpl.importFileByEmptyRow(TestcaseImportManagerImpl.java:819)
+	at com.thed.service.impl.zie.AbstractImportManager.importSingleFiles(AbstractImportManager.java:157)
+	at com.thed.service.impl.zie.AbstractImportManager.importAllFiles(AbstractImportManager.java:81)
+	at com.thed.zfj.rest.JiraService$.startImport(JIRAServiceImpl.scala:110)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:469)
+	at com.thed.zfj.ui.ImportSwingApp$BaseMappingImporter$$anon$32.call(ImportSwingApp.scala:466)
+	at scala.actors.threadpool.FutureTask.run(FutureTask.java:178)
+	at scala.actors.threadpool.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1060)
+	at scala.actors.threadpool.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:574)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-23 03:37:38,872 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:38 IST 2020 Unable to add testcase ending at rowNumber - 3. Error:Unexpected response code: 400
+{"errorMessages":[],"errors":{"rankBeforeIssue":"expected Object"}} 
+
+2020-06-23 03:37:38,881 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:38 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:37:38,881 DEBUG [ForkJoinPool-1-worker-13] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:38 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:37:54,350 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:54 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:37:54,350 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:54 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:37:54,971 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:54 IST 2020 Issue 10015 created! 
+
+2020-06-23 03:37:54,971 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:54 IST 2020 Issue 10015 created! 
+
+2020-06-23 03:37:59,171 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:59 IST 2020 Issue steps for 10015 created! 
+
+2020-06-23 03:37:59,171 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:59 IST 2020 Issue steps for 10015 created! 
+
+2020-06-23 03:37:59,173 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:59 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:37:59,173 DEBUG [ForkJoinPool-1-worker-15] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:37:59 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:43:06,329 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:06 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:43:06,329 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:06 IST 2020 file:///C:/Manmeet/Work/ZEPHYR/Sample_TestCaseImport_sheet.xls normalization success..! 
+
+2020-06-23 03:43:06,860 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:06 IST 2020 Issue 10016 created! 
+
+2020-06-23 03:43:06,860 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:06 IST 2020 Issue 10016 created! 
+
+2020-06-23 03:43:10,889 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:10 IST 2020 Issue steps for 10016 created! 
+
+2020-06-23 03:43:10,889 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:10 IST 2020 Issue steps for 10016 created! 
+
+2020-06-23 03:43:12,497 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:12 IST 2020 Issue 10017 created! 
+
+2020-06-23 03:43:12,497 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:12 IST 2020 Issue 10017 created! 
+
+2020-06-23 03:43:14,329 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:14 IST 2020 Issue steps for 10017 created! 
+
+2020-06-23 03:43:14,329 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:14 IST 2020 Issue steps for 10017 created! 
+
+2020-06-23 03:43:15,915 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:15 IST 2020 Issue 10018 created! 
+
+2020-06-23 03:43:15,915 DEBUG [ForkJoinPool-1-worker-3] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:15 IST 2020 Issue 10018 created! 
+
+2020-06-23 03:43:17,650 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:17 IST 2020 Issue steps for 10018 created! 
+
+2020-06-23 03:43:17,650 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:17 IST 2020 Issue steps for 10018 created! 
+
+2020-06-23 03:43:17,657 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:17 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+
+2020-06-23 03:43:17,657 DEBUG [ForkJoinPool-1-worker-9] ImportSwingApp$$anon$21.applyOrElse(214) | Tue Jun 23 03:43:17 IST 2020 Sample_TestCaseImport_sheet.xls imported successfully..! 
+

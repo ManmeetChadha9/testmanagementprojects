@@ -1,0 +1,24 @@
+{
+    "fieldMappingDetails": {
+        "selectedRows": [],
+        "fieldMaps": {
+            "assignee": "Assigned To",
+            "comments": "Comments",
+            "description": "Description",
+            "id": "External id",
+            "summary": "Test Summary",
+            "customfield_10019": "OrderId",
+            "stepExpectedResults": "Expected Result",
+            "customfield_10020": "Sprint",
+            "stepAction": "Step",
+            "stepData": "Test Data"
+        },
+        "updatedColumnValue": {}
+    },
+    "importSettings": {
+        "startingRowNumber": 1,
+        "discriminator": "BY_TESTCASE_NAME_CHANGE",
+        "selectedSheets": "",
+        "radioValue": "allSheets"
+    }
+}

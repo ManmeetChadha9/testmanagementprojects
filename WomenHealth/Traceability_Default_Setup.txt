@@ -1,0 +1,250 @@
+{
+  "rules":[
+    {
+      "category":"PR",
+      "end_point":"XTC",
+      "creates_end":false,
+      "expected":100,
+      "reporting":[
+        "DesignInput",
+        "Design"],
+      "up_rules":[
+        {
+          "message":"is not derived from RISK",
+          "name":"can be derived from RISK",
+          "rule":"can_have",
+          "any_of":[
+            "RISK"]
+        }],
+      "down_rules":[
+        {
+          "message":"has no links to any of SR,HR",
+          "name":"must have links to any of SR,HR",
+          "rule":"must_have",
+          "any_of":[
+            "SR",
+            "HR"]
+        },
+        {
+          "message":"there is no use case",
+          "name":"must have a use case for validation",
+          "rule":"must_have",
+          "any_of":[
+            "VAL"]
+        }]
+    },
+    {
+      "category":"SR",
+      "end_point":"XTC",
+      "creates_end":false,
+      "expected":100,
+      "reporting":[
+        "DesignInput",
+        "Design"],
+      "up_rules":[
+        {
+          "message":"is not derived from any of PR,RISK",
+          "name":"can be derived from any of PR,RISK",
+          "rule":"can_have",
+          "any_of":[
+            "PR",
+            "RISK"]
+        }],
+      "down_rules":[
+        {
+          "message":"has no links to SPEC",
+          "name":"can have links to SPEC",
+          "rule":"can_have",
+          "any_of":[
+            "SPEC"]
+        },
+        {
+          "message":"there is no test case",
+          "name":"must have a test case for verification",
+          "rule":"must_have",
+          "any_of":[
+            "TC"]
+        }]
+    },
+    {
+      "category":"SPEC",
+      "creates_end":false,
+      "expected":100,
+      "reporting":[
+        "DesignOutput",
+        "Design"],
+      "up_rules":[
+        {
+          "message":"is not derived from system requirement",
+          "name":"must be derived from system requirement",
+          "rule":"must_have",
+          "any_of":[
+            "SR"]
+        }],
+      "down_rules":[
+        {
+          "message":"has no links to UTC",
+          "name":"must have links to UTC",
+          "rule":"must_have",
+          "any_of":[
+            "UTC"]
+        }]
+    },
+    {
+      "category":"TC",
+      "end_point":"XTC",
+      "creates_end":true,
+      "expected":100,
+      "reporting":[
+        "DesignOutput",
+        "Design",
+        "Test"],
+      "up_rules":[
+        {
+          "message":"is not derived from specification",
+          "name":"must be derived from specification",
+          "rule":"must_have",
+          "any_of":[
+            "SR"]
+        },
+        {
+          "message":"is not derived from HR",
+          "name":"must be derived from HR",
+          "rule":"must_have",
+          "any_of":[
+            "HR"]
+        }],
+      "down_rules":[
+      ]
+    },
+    {
+      "category":"VAL",
+      "end_point":"XTC",
+      "creates_end":true,
+      "expected":100,
+      "reporting":[
+        "DesignInput",
+        "Design",
+        "Test"],
+      "up_rules":[
+        {
+          "message":"is not derived from marketing requirement",
+          "name":"must be derived from marketing requirement",
+          "rule":"must_have",
+          "any_of":[
+            "PR"]
+        }],
+      "down_rules":[
+      ]
+    },
+    {
+      "category":"RISK",
+      "creates_end":false,
+      "expected":100,
+      "reporting":[
+        "Risk",
+        "DesignInput",
+        "Design"],
+      "up_rules":[
+      ],
+      "down_rules":[
+        {
+          "message":"must have HR",
+          "name":"must have HR",
+          "rule":"must_have",
+          "any_of":[
+            "HR"]
+        },
+        {
+          "message":"can have PR",
+          "name":"can have PR",
+          "rule":"can_have",
+          "any_of":[
+            "PR"]
+        }],
+      "end_point":""
+    },
+    {
+      "category":"XTC",
+      "creates_end":false,
+      "reporting":[
+        "ExecutedTest"],
+      "up_rules":[
+      ],
+      "down_rules":[
+      ]
+    },
+    {
+      "category":"DOC",
+      "creates_end":false,
+      "reporting":[
+        "Doc"],
+      "up_rules":[
+      ],
+      "down_rules":[
+      ]
+    },
+    {
+      "category":"SIGN",
+      "creates_end":false,
+      "reporting":[
+        "Sign"],
+      "up_rules":[
+      ],
+      "down_rules":[
+      ]
+    },
+    {
+      "category":"REPORT",
+      "creates_end":false,
+      "reporting":[
+        "Report"],
+      "up_rules":[
+      ],
+      "down_rules":[
+      ]
+    },
+    {
+      "category":"UTC",
+      "creates_end":true,
+      "reporting":[
+        "DesignOutput",
+        "Design",
+        "Test"],
+      "up_rules":[
+        {
+          "message":"is not derived from SPEC",
+          "name":"must be derived from SPEC",
+          "rule":"must_have",
+          "any_of":[
+            "SPEC"]
+        }],
+      "down_rules":[
+      ]
+    },
+    {
+      "category":"HR",
+      "creates_end":false,
+      "reporting":[
+        "Design",
+        "DesignInput"],
+      "end_point":"XTC",
+      "up_rules":[
+        {
+          "message":"is not derived from any of PR,RISK",
+          "name":"can be derived from any of PR,RISK",
+          "rule":"can_have",
+          "any_of":[
+            "PR",
+            "RISK"]
+        }],
+      "down_rules":[
+        {
+          "message":"must have TC",
+          "name":"must have TC",
+          "rule":"must_have",
+          "any_of":[
+            "TC"]
+        }]
+    }]
+}

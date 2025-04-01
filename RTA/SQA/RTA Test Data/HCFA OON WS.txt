@@ -1,0 +1,238 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cla="http://claimsprocessing.multiplan.com">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<cla:ClaimRequest>
+			<cla:header>
+				<cla:userId>extwsclient@ihpproject.com</cla:userId>
+				<cla:password>Multiplan@2012</cla:password>
+				<cla:senderId>WS47720001</cla:senderId>
+				<cla:senderBatchId>WSCTREG01212015</cla:senderBatchId>
+				<cla:numberOfClaimsInBatch>1</cla:numberOfClaimsInBatch>
+				<cla:transactionDateTime>2015-02-02T18:00:00.000Z</cla:transactionDateTime>
+			</cla:header>
+			<cla:submitProfClaim>
+				<cla:clientClaimId>MANMRTA_0912_H_05</cla:clientClaimId>
+				<cla:originalClaimId>MANMRTA_0912_H_05</cla:originalClaimId>
+				<cla:cCode>PEH HDMF</cla:cCode>
+				<cla:submitterGroupNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<cla:claimCharge>15000.00</cla:claimCharge>
+				<cla:targetPrice>18500.00</cla:targetPrice>
+				<cla:claimCause>WC</cla:claimCause>
+				<cla:accidentState>WI</cla:accidentState>
+				<cla:claimStartDate>2017-09-08</cla:claimStartDate>
+				<cla:claimEndDate>2017-09-08</cla:claimEndDate>
+				<cla:reasonableCustomary>2500.00</cla:reasonableCustomary>
+				<cla:payerName>COVENTRY</cla:payerName>
+				<cla:dropDate>2018-11-28</cla:dropDate>
+				<cla:patient>
+					<cla:fullName>NAHIR PATEL</cla:fullName>
+					<cla:firstName>NAHIR</cla:firstName>
+					<cla:middleName>M</cla:middleName>
+					<cla:lastName>PATEL</cla:lastName>
+					<cla:suffix>JR</cla:suffix>
+					<cla:phone>4192154574</cla:phone>
+					<cla:address1>3456 FGTYU D</cla:address1>
+					<cla:address2>8th Floor, Apt 2763</cla:address2>
+					<cla:city>TOLEDO</cla:city>
+					<cla:state>OH</cla:state>
+					<cla:zip>43624</cla:zip>
+					<cla:email>ankeen.merzikian@multiplan.com</cla:email>
+					<cla:id>289460122</cla:id>
+					<cla:birthDate>1986-12-15</cla:birthDate>
+					<cla:gender>F</cla:gender>
+					<cla:accountNumber>789023WER</cla:accountNumber>
+					<cla:medicalRecordNumber>MDRC5689075</cla:medicalRecordNumber>
+					<cla:relationshipCode>09</cla:relationshipCode>
+					<cla:acceptAssign>C</cla:acceptAssign>
+				</cla:patient>
+				<cla:insured>
+					<cla:fullName>PARTH PATEL</cla:fullName>
+					<cla:firstName>PARTH</cla:firstName>
+					<cla:middleName>H</cla:middleName>
+					<cla:lastName>JANG</cla:lastName>
+					<cla:suffix>SR</cla:suffix>
+					<cla:phone>4192154574</cla:phone>
+					<cla:address1>634 PALM DRIVE</cla:address1>
+					<cla:address2>2nd Floor, Apt 67</cla:address2>
+					<cla:city>TOLIDO</cla:city>
+					<cla:state>OH</cla:state>
+					<cla:zip>43624</cla:zip>
+					<cla:email>ankeen.merzikian@multiplan.com</cla:email>
+					<cla:id>78234567UUIO</cla:id>
+					<cla:birthDate>1996-05-17</cla:birthDate>
+					<cla:gender>M</cla:gender>
+					<cla:employerName>Great Employer to work for</cla:employerName>
+					<cla:employerGroupPolicyNumber>HUJI0090435</cla:employerGroupPolicyNumber>
+					<cla:employerGroupName>HardWorkers</cla:employerGroupName>
+				</cla:insured>
+				<cla:billingProvider>
+					<cla:fullName>Valley Mental Health</cla:fullName>
+					<cla:firstName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:middleName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:lastName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:suffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:phone>132456978</cla:phone>
+					<cla:address1>4460 SOUTH HIGHLAND DRIVE SUITE 220</cla:address1>
+					<cla:address2 xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:city>Salt Lake City</cla:city>
+					<cla:state>UT</cla:state>
+					<cla:zip>84124</cla:zip>
+					<cla:fax>13456798</cla:fax>
+					<cla:email>manmeet.chadha@multiplan.com</cla:email>
+					<cla:tin>942938348</cla:tin>
+					<cla:npi xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:repricingProviderId>0</cla:repricingProviderId>
+				</cla:billingProvider>
+				<cla:renderingProvider>
+					<cla:fullName>Valley Mental Health</cla:fullName>
+					<cla:firstName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:middleName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:lastName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:suffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:phone>132456978</cla:phone>
+					<cla:address1>4460 SOUTH HIGHLAND DRIVE SUITE 220</cla:address1>
+					<cla:address2 xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:city>Salt Lake City</cla:city>
+					<cla:state>UT</cla:state>
+					<cla:zip>84124</cla:zip>
+					<cla:fax>13456798</cla:fax>
+					<cla:email>manmeet.chadha@multiplan.com</cla:email>
+					<cla:tin>942938348</cla:tin>
+					<cla:npi xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<cla:repricingProviderId>0</cla:repricingProviderId>
+				</cla:renderingProvider>
+				<cla:paytoProvider>
+					<cla:fullName>Great Lake Anesthesia</cla:fullName>
+					<cla:phone>5556667777</cla:phone>
+					<cla:address1>P O Box 25033</cla:address1>
+					<cla:city>Santa Anna</cla:city>
+					<cla:state>CA</cla:state>
+					<cla:zip>53132</cla:zip>
+					<cla:email>ankeen.merzikian</cla:email>
+					<cla:tin>270492067</cla:tin>
+					<cla:npi>1457479552</cla:npi>
+				</cla:paytoProvider>
+				<cla:serviceFacilityLocation>
+					<cla:npi xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				</cla:serviceFacilityLocation>
+				<cla:extendedInfos>
+					<cla:extendedInfo>
+						<cla:name>Name1</cla:name>
+						<cla:value>Value1</cla:value>
+					</cla:extendedInfo>
+				</cla:extendedInfos>
+				<cla:diagnosisCodes>
+					<cla:diagnosisCode icdVersion="9">780.9</cla:diagnosisCode>
+					<cla:diagnosisCode icdVersion="9">F12.20</cla:diagnosisCode>
+					<cla:diagnosisCode icdVersion="9">F14.20</cla:diagnosisCode>
+					<cla:diagnosisCode icdVersion="9">F13.20</cla:diagnosisCode>
+				</cla:diagnosisCodes>
+				<cla:claimLines>
+					<cla:claimLine>
+						<cla:lineNumber>1</cla:lineNumber>
+						<cla:unitQty>1</cla:unitQty>
+						<cla:lineCharge>5500.00</cla:lineCharge>
+						<cla:targetPrice>5500.00</cla:targetPrice>
+						<cla:noncovered>0</cla:noncovered>
+						<cla:reasonableCustomary xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:modifiers>
+							<cla:modifier>26</cla:modifier>
+						</cla:modifiers>
+						<cla:ndcCodes>
+							<cla:ndcCode>
+								<cla:rxNbr xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+								<cla:drugCode>00641244045</cla:drugCode>
+								<cla:unitPrice>10.00</cla:unitPrice>
+								<cla:measuringBasis>UN</cla:measuringBasis>
+								<cla:drugQty>100</cla:drugQty>
+							</cla:ndcCode>
+						</cla:ndcCodes>
+						<cla:extendedInfos>
+							<cla:extendedInfo>
+								<cla:name>name2</cla:name>
+								<cla:value>value2</cla:value>
+							</cla:extendedInfo>
+						</cla:extendedInfos>
+						<cla:cpt>93970</cla:cpt>
+						<cla:anesthesiaUnit>0</cla:anesthesiaUnit>
+						<cla:serviceStartDate>2017-09-08</cla:serviceStartDate>
+						<cla:serviceEndDate>2017-09-08</cla:serviceEndDate>
+						<cla:placeOfService>22</cla:placeOfService>
+						<cla:typeOfService xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:diagPtrs>
+							<cla:diagPtr>1</cla:diagPtr>
+						</cla:diagPtrs>
+					</cla:claimLine>
+					<cla:claimLine>
+						<cla:lineNumber>2</cla:lineNumber>
+						<cla:unitQty>1</cla:unitQty>
+						<cla:lineCharge>6500.00</cla:lineCharge>
+						<cla:targetPrice>6500.00</cla:targetPrice>
+						<cla:noncovered>0</cla:noncovered>
+						<cla:reasonableCustomary xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:modifiers xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:ndcCodes>
+							<cla:ndcCode>
+								<cla:rxNbr xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+								<cla:drugCode>00074463701</cla:drugCode>
+								<cla:unitPrice>20.00</cla:unitPrice>
+								<cla:measuringBasis>UN</cla:measuringBasis>
+								<cla:drugQty>100</cla:drugQty>
+							</cla:ndcCode>
+						</cla:ndcCodes>
+						<cla:extendedInfos>
+							<cla:extendedInfo>
+								<cla:name>name</cla:name>
+								<cla:value>value</cla:value>
+							</cla:extendedInfo>
+						</cla:extendedInfos>
+						<cla:cpt>82247</cla:cpt>
+						<cla:anesthesiaUnit>0</cla:anesthesiaUnit>
+						<cla:serviceStartDate>2017-09-08</cla:serviceStartDate>
+						<cla:serviceEndDate>2017-09-08</cla:serviceEndDate>
+						<cla:placeOfService xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:typeOfService xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:diagPtrs>
+							<cla:diagPtr>1</cla:diagPtr>
+						</cla:diagPtrs>
+					</cla:claimLine>
+					<cla:claimLine>
+						<cla:lineNumber>3</cla:lineNumber>
+						<cla:unitQty>1</cla:unitQty>
+						<cla:lineCharge>3000.00</cla:lineCharge>
+						<cla:targetPrice xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:noncovered>0</cla:noncovered>
+						<cla:reasonableCustomary xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:modifiers>
+							<cla:modifier>26</cla:modifier>
+						</cla:modifiers>
+						<cla:ndcCodes>
+							<cla:ndcCode>
+								<cla:rxNbr xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+								<cla:drugCode>00074463701</cla:drugCode>
+								<cla:unitPrice>20.00</cla:unitPrice>
+								<cla:measuringBasis>UN</cla:measuringBasis>
+								<cla:drugQty>100</cla:drugQty>
+							</cla:ndcCode>
+						</cla:ndcCodes>
+						<cla:extendedInfos>
+							<cla:extendedInfo>
+								<cla:name>name</cla:name>
+								<cla:value>value</cla:value>
+							</cla:extendedInfo>
+						</cla:extendedInfos>
+						<cla:cpt>80053</cla:cpt>
+						<cla:anesthesiaUnit>0</cla:anesthesiaUnit>
+						<cla:serviceStartDate>2017-09-08</cla:serviceStartDate>
+						<cla:serviceEndDate>2017-09-08</cla:serviceEndDate>
+						<cla:placeOfService xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:typeOfService xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<cla:diagPtrs>
+							<cla:diagPtr>1</cla:diagPtr>
+						</cla:diagPtrs>
+					</cla:claimLine>
+				</cla:claimLines>
+			</cla:submitProfClaim>
+		</cla:ClaimRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

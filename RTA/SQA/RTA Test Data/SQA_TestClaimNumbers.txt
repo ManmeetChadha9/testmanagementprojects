@@ -1,0 +1,5 @@
+HCFA OON RTA/Non-RTA comparison - 277116951,277116952
+HCFA INN RTA/Non-RTA comparison - 277116577,277116588
+HCFA INN RTA used for closing Diagnosis defect 277118223
+
+UB RTA – 277117726 / 100024226  UB Non-RTA – 277117500 / 704077559 - was loaded for MSR/MPPR Test Case1
